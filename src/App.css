@@ -1,0 +1,31 @@
+ul {
+  list-style-type: upper-alpha	;
+  padding: 10;
+  margin: 10;
+}
+
+li {
+  background-color: #8495eb;
+  border: 3px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex	;
+  justify-content: space-evenly			;
+}
+
+li strong {
+  color: #333;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8495eb;
+  
+}
